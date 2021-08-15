@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <h1 class="text-5xl mb-10 text-center">Let's get some <span class="text-red-500">Moneeeeeey!!</span></h1>
+        <h1 class="text-5xl mb-10 text-center mt-16">Let's get some <span class="text-red-500">Moneeeeeey!!</span></h1>
     </header>
 
     <main  class="w-3/4 mx-auto">
@@ -18,16 +18,16 @@
             <div class="grid grid-cols-3 gap-4">
                 <div class="bg-blue-400 p-8 text-white font-semibold text-2xl rounded-2xl">
                     <h3>Deposit</h3>
-                    <h4 class="text-4xl">400$$</h4>
+                    <h4 id="deposite" class="text-4xl inline">0</h4><small>$</small>
                 </div>
                 
                 <div class="bg-green-400 p-8 text-white font-semibold text-2xl rounded-2xl">
                     <h3>Withdraw</h3>
-                    <h4 class="text-4xl">200$$</h4>
+                    <h4 id="withdraw" class="text-4xl inline">0</h4><small>$</small>
                 </div>
                 <div class="bg-purple-400 p-8 text-white font-semibold text-2xl rounded-2xl">
                     <h3>Balance</h3>
-                    <h4 class="text-4xl">300$$</h4>
+                    <h4 id="balance" class="text-4xl inline">0</h4><small>$</small>
                 </div>
             </div>
         </section>
@@ -44,7 +44,6 @@
                     
                     <input id="deposite-amount" class="p-1 block mb-1" type="text" placeholder="$ amount of deposite">
 
-
                     <button id="depositeButton" class="bg-yellow-100 p-2 rounded-xl font-semibold mt-1">Deposite</button>
 
                 </div>
@@ -60,7 +59,6 @@
                     
                     <input id="withdraw-amount" class="p-1 block mb-1" type="text" placeholder="$ amount of withdraw">
 
-
                     <button id="withdrawButton" class="bg-red-200 p-2 rounded-xl font-semibold mt-1">Withdraw</button>
 
                 </div>
@@ -68,5 +66,6 @@
             </div>
         </section>
     </main>
+    <script src="js/banking.js"></script>
 </body>
 </html>
