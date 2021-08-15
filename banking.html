@@ -5,8 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banking</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Banking Site</h1>
+    <header>
+        <h1 class="text-5xl mb-10 text-center">Let's get some <span class="text-red-500">Moneeeeeey!!</span></h1>
+    </header>
+
+    <main>
+        <section>
+            <div class="grid grid-cols-3 gap-4 w-3/4 mx-auto">
+                <div class="bg-blue-400 p-8 text-white font-semibold text-2xl rounded-2xl">
+                    <h3>Deposit</h3>
+                    <h4 class="text-4xl">400$$</h4>
+                </div>
+                
+                <div class="bg-green-400 p-8 text-white font-semibold text-2xl rounded-2xl">
+                    <h3>Withdraw</h3>
+                    <h4 class="text-4xl">200$$</h4>
+                </div>
+                <div class="bg-purple-400 p-8 text-white font-semibold text-2xl rounded-2xl">
+                    <h3>Balance</h3>
+                    <h4 class="text-4xl">300$$</h4>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
