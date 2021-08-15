@@ -3,6 +3,8 @@
 document.getElementById('depositeButton').addEventListener('click',function(){
     // get input value 
     const inputAmountField = document.getElementById('deposite-amount');
+
+    // input validation
     const inputAmount = parseFloat(inputAmountField.value);
 
     // get previous value 
